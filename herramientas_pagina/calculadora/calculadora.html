@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <input type="text" id="result" class="form-control" readonly>
+        
+        <!--1-3-->
+        <div class="col">
+          <div class="row">
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('1')">1</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('2')">2</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('3')">3</button>
+          </div>
+
+          <!--4-6-->
+          <div class="row">
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('4')">4</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('5')">5</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('6')">6</button>
+          </div>
+
+          <!--7-9-->
+          <div class="row">
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('7')">7</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('8')">8</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('9')">9</button>
+          </div>
+
+          <!--+,- y 0-->
+          <div class="row">
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('+')">+</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('0')">0</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('-')">-</button>
+          </div>
+        <!--OPERADORES-->
+          <div class="row">
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('*')">*</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('%')">%</button>
+            <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('/')">/</button>
+          </div>
+
+
+        <!--= y Del-->
+        </div>
+        <button class="btn btn-primary btn-lg m-1" onclick="appendToResult('.')">.</button>
+        <button class="btn btn-danger btn-lg m-1" onclick="clearResult()">CLR</button>
+        <button class="btn btn-success btn-lg m-1" onclick="calculateResult()">=</button>
+      </div>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>
