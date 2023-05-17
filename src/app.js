@@ -20,11 +20,11 @@ app.engine('.hbs', engine({
 app.set('view engine', 'hbs');
 
 app.use(myconnection(mysql, {
-  host: 'localhost',
-  user: 'geits',
-  password: 'denver16',
-  port: 3306,
-  database: 'rigemdb'
+  host: 'containers-us-west-158.railway.app',
+  user: 'root',
+  password: 'S4w3CBgi7E3CMA0sjhHg',
+  port: 5771,
+  database: 'railway'
 }, 'single'));
 
 app.listen(app.get('port'), () => {
