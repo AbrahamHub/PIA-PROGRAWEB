@@ -58,6 +58,12 @@ function update(req, res) {
   });
 }
 
+function calc(req, res){
+  res.render('calc/calculadoraa');
+}
+function home(req, res){
+  res.render('home');
+}
 
 module.exports = {
   index: index,
@@ -66,4 +72,6 @@ module.exports = {
   destroy: destroy,
   edit: edit,
   update: update,
+  calc : calc,
+  home : home,
 }
