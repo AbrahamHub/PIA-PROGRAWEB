@@ -64,6 +64,9 @@ function calc(req, res){
 function home(req, res){
   res.render('home');
 }
+function notes(req, res){
+  res.render('notes/notas');
+}
 
 module.exports = {
   index: index,
@@ -74,4 +77,5 @@ module.exports = {
   update: update,
   calc : calc,
   home : home,
+  notes: notes,
 }
