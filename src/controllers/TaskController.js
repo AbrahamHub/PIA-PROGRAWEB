@@ -67,6 +67,9 @@ function home(req, res){
 function notes(req, res){
   res.render('notes/notas');
 }
+function tecnicas(req, res){
+  res.render('tecnicas/estudio');
+}
 
 module.exports = {
   index: index,
@@ -78,4 +81,5 @@ module.exports = {
   calc : calc,
   home : home,
   notes: notes,
+  tecnicas: tecnicas,
 }

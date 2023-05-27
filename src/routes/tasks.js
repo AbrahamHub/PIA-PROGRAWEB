@@ -12,5 +12,6 @@ router.post('/tasks/edit/:id', TaskController.update);
 router.get('/calc', TaskController.calc);
 router.get('/home', TaskController.home);
 router.get('/notes', TaskController.notes);
+router.get('/tecnicas', TaskController.tecnicas);
 
 module.exports = router;

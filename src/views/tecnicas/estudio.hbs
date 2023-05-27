@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tecnicas de estudio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+<style>
+:root{
+    --blanco: #ffffff;
+}
+
+body {
+    font-family: 'Krub', sans-serif;
+     }
+h2{
+    font-size: 2.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+}
+.contenedor{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* ó repeat(3, 1fr) es lo mismo que repetir 3 veces 1fr */ 
+        column-gap: 1rem;
+    }
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: normal;
+}
+
+.servicio p{
+    line-height: 2;
+}
+
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicio img{
+    border-radius: 20%;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+}
+
+.hero{
+    background-image: url(https://www.cesuma.mx/images/easyblog_articles/199/misin-y-objetivo-de-la-actividad-de-aprendizaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contenido-hero{
+    position: absolute;
+    background-color: rgba(0,0,0, .6 );
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero h2,
+.contenido-hero p{
+    color: var(--blanco);
+}
+
+.ubicacion{
+    display: flex;
+    align-items: flex-end;
+}
+  
+</style>
+
+<section class="hero">
+        <div class="contenido-hero">
+            <h2>El aprendizaje nunca agota la mente.</h2>
+        
+        </div>
+    </section>
+
+<br>
+<main class="contenedor sombra">
+        <h2>Tecnicas de Estudio</h2>
+
+    <div class="servicios">
+        <section class="servicio">
+            <h3>Mapa Mental</h3>
+            <div class="iconos">
+            <img src="https://edit.org/img/blog/agl-hacer-mapas-mentales-creativos-online-ejemplo-diagrama-gratis.jpg">
+            </div>
+            <p>El mapa mental es una herramienta de estudio bastante útil. Consisten en un diagrama que se utiliza para representar ideas, palabras, dibujos, imágenes, entre otros elementos que se relacionan a una idea o concepto central.
+                <br>Se trata de uno de los métodos más eficaces para extraer, organizar y memorizar información, siendo una técnica de estudio muy popular.
+            </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Resumenes</h3>
+            <div class="iconos">
+                <img src="https://descargas.intef.es/recursos_educativos/It_didac/Leng_Pri/4/05/04_resumen/El_resumen.png">
+            </div>
+            <p>
+                Los resúmenes consisten en un escrito, generalmente breve, en el que se sintetizan los puntos de mayor relevancia de un texto de mayor complejidad.
+                De esta forma, se descarta todo el contenido que no sea vital para la comprensión de la idea principal.Los resumenes son una técnica bastante recomendable al momento de repasar o memorizar
+            </p>
+        </section>
+        
+        <section class="servicio">
+            <h3>Listas</h3>
+            <div class="iconos">
+            <img src="https://vilmanunez.com/wp-content/uploads/2014/10/listas1.png" >
+            </div>
+            <p>Al momento de aprender, es sumamente importante mantener la organización. Las listas consisten en ordenar los contenidos a repasar de acuerdo a las prioridades del estudiante.
+                De esta forma, se puede definir el orden en el que se desea estudiar los temas y seguir una secuencia mucho más ordenada y menos estresante.
+            </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Hacer Esquemas</h3>
+            <div class="iconos">
+            <img src="https://marketplace.canva.com/EAFJ9i5dQVE/2/0/1600w/canva-gr%C3%A1fico-cuadro-sin%C3%B3ptico-doodle-creativo-multicolor-mptghe3n2x0.jpg">
+            </div>
+            <p>Habitualmente, estas herramientas se elaboran a partir de una idea principal, la cual se une a otros puntos secundarios que son cruciales para comprender el tema que se estudia.
+             <br>Son una muy buena herramienta cuando se necesita aprender temas complejos, pues permiten sintetizarlos para entenderlos más fácilmente.
+             Existen muchos tipos de esquemas que pueden elaborarse de acuerdo a las preferencias de cada estudiante. </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Listas</h3>
+            <div class="iconos">
+            <img src="https://cuadrocomparativo.org/wp-content/uploads/2015/09/cuadro-comparativo-3-728.jpg" >
+            </div>
+            <p>
+                Los cuadros comparativos son herramientas que permiten realizar una comparación entre dos o más elementos de manera gráfica y organizada.<br> De esta manera, es posible vincular ambos conceptos y definir sus principales similitudes, diferencias y características.
+                Ofrecen una lectura muy ordenada en la que se exponen con claridad los puntos que se desea comparar.
+            </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Leer en voz alta</h3>
+            <div class="iconos">
+            <img src="data:image/jpeg;base64,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" >
+            </div>
+            <p>
+                Leer en voz alta te permite reafirmar los conocimientos adquiridos. Al aplicarla, la información no solo será captada por los ojos, sino también por los oídos. Resulta bastante útil al momento de escribir artículos, resúmenes o ensayos.
+                Leer en voz alta nos permite identificar errores y encontrar incoherencias.
+            </p>
+        </section>
+
+    </div>
+</main>
+ <br>
+    
+</body>
+</html>
+
