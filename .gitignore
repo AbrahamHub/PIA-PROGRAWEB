@@ -1,3 +1,4 @@
 /node_modules
 /my-db
 /src/node_modules
+.idea
